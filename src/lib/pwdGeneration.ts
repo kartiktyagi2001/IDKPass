@@ -42,7 +42,7 @@ export async function generatePassword(siteName: string, cipherKey: string): Pro
 //   }
 
 //ensure at least one of each
-  let temp = [
+  const temp = [
     lowers[bytes[0] % lowers.length],
     uppers[bytes[1] % uppers.length],
     digits[bytes[2] % digits.length],
