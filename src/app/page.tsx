@@ -28,7 +28,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className='flex flex-col md:flex-row justify-center items-center gap-2 md:gap-2'>
+          <div className='flex flex-col md:flex-row justify-center items-center gap-2 md:gap-2 text-center'>
             <h1 className='text-4xl font-bold'>The Magical</h1>
             <h1 className='text-4xl font-bold'>Password Manager</h1>
           </div>
