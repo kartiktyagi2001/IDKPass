@@ -15,13 +15,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Navbar />
       <body
         className="w-full h-full bg-[#ffe4a6]"
       >
-        {children}
+        <Navbar />
+        
+        <main>
+          {children}
+        </main>
+
+        <Footer />
       </body>
-      <Footer />
+      
     </html>
   );
 }

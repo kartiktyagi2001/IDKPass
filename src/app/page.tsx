@@ -5,12 +5,13 @@ import {Button} from '../components/ui/button'
 import { Star } from "lucide-react"
 import { Form } from '@/components/Form';
 import { Features } from '@/components/Features';
+import { BouncingBall } from '@/components/BouncingBall';
 
 export default function Home() {
 
   return(
     <div>
-      <div className='h-full mt-10 mb-20 px-20 flex flex-col lg:flex-row lg:pl-0 justify-around items-center'>
+      <div className='h-full mt-15 mb-20 px-20 flex flex-col lg:flex-row lg:pl-0 justify-around items-center'>
 
         <div className='max-w-2xl'>
           <div className='flex justify-center items-center mb-4'>
@@ -38,6 +39,10 @@ export default function Home() {
               <b>idk</b> is your forgetful friend who somehow remembers your secrets only when you ask in the right way - a little magical, but always reliable. 😉
             </p>
           </div>
+
+          <div>
+            {/* <BouncingBall /> */}
+          </div>
         </div>
 
         <div className='mt-10 flex justify-center items-center'>
@@ -45,7 +50,7 @@ export default function Home() {
         </div>        
       </div>
 
-      <div>
+      <div className="mt-30 lg:mt-45 mb-10">
         <Features />
       </div>
     </div>
