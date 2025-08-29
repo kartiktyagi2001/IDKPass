@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "IDK Pass",
@@ -12,12 +14,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <Navbar />
       <body
-        className="w-full h-full bg-[#f5e0a6]"
+        className="w-full h-full bg-[#ffe4a6]"
       >
         {children}
       </body>
+      <Footer />
     </html>
   );
 }

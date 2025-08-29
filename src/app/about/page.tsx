@@ -6,13 +6,13 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm">
+      {/* <nav className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/" className="text-xl font-bold text-blue-600 hover:text-blue-800">
             ← IDK Password Manager
           </Link>
         </div>
-      </nav>
+      </nav> */}
 
       <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow-lg p-8">
